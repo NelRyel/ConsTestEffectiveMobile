@@ -11,21 +11,39 @@ DefaultInit defaultInit = new DefaultInit();
 //defaultInit.StartInitCityDist();
 //defaultInit.StartOrderInit();
 bool w = true;
+int cityCount;
 while (w == true)
 {
     using (_DbContext db = new _DbContext())
     {
         var dist = db.CityDistricts.ToList();
+        cityCount = db.CityDistricts.Count();
         foreach (var item in dist)
         {
             Console.WriteLine("ID: " + item.Id +" "+ "Name: " + item.Name);
         }
     }
-    Console.WriteLine( "enter id ");
-    int id = Convert.ToInt32(Console.ReadLine());
+    bool x = true;
+    int id;
+    do {
+        Console.WriteLine("enter id ");
+        string s = Console.ReadLine();
+        bool isNumeric = int.TryParse(s, out id);
+        if (isNumeric == true&&id<=cityCount)
+        {
+            x = false;
+            //Console.WriteLine("да");
+        }
+        else
+        {
+            Console.WriteLine("не то");
+        }
+    }
+    while (x==true);
+
     GetOrdersByDistrict(id);
 
-    Console.WriteLine( "y - еще. другое - всё" );
+    Console.WriteLine("y - еще. другое - всё");
     char c = Convert.ToChar(Console.ReadLine());
     if (c == 'y')
     {
@@ -40,10 +58,10 @@ while (w == true)
         using (_DbContext db = new _DbContext())
         {
             var some = db.CityDistricts.Include(o => o.Orders).Where(a => a.Id == id).ToList();
-            foreach (CityDistrict comp in some)
+            foreach (CityDistrict dstrckt in some)
             {
-                Console.WriteLine($"\n район: {comp.Name}");
-                foreach (Order order in comp.Orders.OrderByDescending(s => s.DateTimeOredDelivery))
+                Console.WriteLine($"\n район: {dstrckt.Name}");
+                foreach (Order order in dstrckt.Orders.OrderByDescending(s => s.DateTimeOredDelivery))
                 {
                     Console.WriteLine("ID: " + order.Id + " " + "Вес заказа: " + order.Weight + " " + "Дата заказа: " + order.DateTimeOredDelivery);
                 }
