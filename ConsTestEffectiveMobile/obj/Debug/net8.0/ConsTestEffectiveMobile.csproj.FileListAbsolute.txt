@@ -107,3 +107,4 @@ E:\vs\projects\sometest\ConsTestEffectiveMobile\ConsTestEffectiveMobile\obj\Debu
 E:\vs\projects\sometest\ConsTestEffectiveMobile\ConsTestEffectiveMobile\obj\Debug\net8.0\ConsTestEffectiveMobile.pdb
 E:\vs\projects\sometest\ConsTestEffectiveMobile\ConsTestEffectiveMobile\obj\Debug\net8.0\ConsTestEffectiveMobile.genruntimeconfig.cache
 E:\vs\projects\sometest\ConsTestEffectiveMobile\ConsTestEffectiveMobile\obj\Debug\net8.0\ref\ConsTestEffectiveMobile.dll
+C:\sharpProjects\emcnsl\ConsTestEffectiveMobile\ConsTestEffectiveMobile\obj\Debug\net8.0\ConsTestEffectiveMobile.sourcelink.json

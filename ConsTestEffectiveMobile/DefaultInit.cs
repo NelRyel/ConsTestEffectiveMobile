@@ -65,8 +65,10 @@ namespace ConsTestEffectiveMobile
                     Order order = new Order();
                     order.Weight = MyRand(50);
                    
-                    int month = rand.Next(1, 12);
-                    int day = MyRandDay(month);
+                    //int month = rand.Next(1, 12);
+                    //int day = MyRandDay(month);
+                    int month = 10;
+                    int day = 22;
                     int hour = rand.Next(0, 24);
                     int minute = rand.Next(0, 59);
                     int second = rand.Next(0, 59);

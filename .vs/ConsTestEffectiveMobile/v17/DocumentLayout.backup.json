@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{09758C21-7314-413C-A467-C7CBE84EA05B}|ConsTestEffectiveMobile\\ConsTestEffectiveMobile.csproj|solutionrelative:constesteffectivemobile\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{09758C21-7314-413C-A467-C7CBE84EA05B}|ConsTestEffectiveMobile\\ConsTestEffectiveMobile.csproj|c:\\sharpprojects\\emcnsl\\constesteffectivemobile\\constesteffectivemobile\\_dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{09758C21-7314-413C-A467-C7CBE84EA05B}|ConsTestEffectiveMobile\\ConsTestEffectiveMobile.csproj|solutionrelative:constesteffectivemobile\\_dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{09758C21-7314-413C-A467-C7CBE84EA05B}|ConsTestEffectiveMobile\\ConsTestEffectiveMobile.csproj|c:\\sharpprojects\\emcnsl\\constesteffectivemobile\\constesteffectivemobile\\defaultinit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{09758C21-7314-413C-A467-C7CBE84EA05B}|ConsTestEffectiveMobile\\ConsTestEffectiveMobile.csproj|solutionrelative:constesteffectivemobile\\defaultinit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09758C21-7314-413C-A467-C7CBE84EA05B}|ConsTestEffectiveMobile\\ConsTestEffectiveMobile.csproj|c:\\sharpprojects\\emcnsl\\constesteffectivemobile\\constesteffectivemobile\\_dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09758C21-7314-413C-A467-C7CBE84EA05B}|ConsTestEffectiveMobile\\ConsTestEffectiveMobile.csproj|solutionrelative:constesteffectivemobile\\_dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{09758C21-7314-413C-A467-C7CBE84EA05B}|ConsTestEffectiveMobile\\ConsTestEffectiveMobile.csproj|c:\\sharpprojects\\emcnsl\\constesteffectivemobile\\constesteffectivemobile\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -54,20 +54,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "DefaultInit.cs",
               "DocumentMoniker": "C:\\sharpProjects\\emcnsl\\ConsTestEffectiveMobile\\ConsTestEffectiveMobile\\DefaultInit.cs",
               "RelativeDocumentMoniker": "ConsTestEffectiveMobile\\DefaultInit.cs",
               "ToolTip": "C:\\sharpProjects\\emcnsl\\ConsTestEffectiveMobile\\ConsTestEffectiveMobile\\DefaultInit.cs",
               "RelativeToolTip": "ConsTestEffectiveMobile\\DefaultInit.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEsAAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAwwDsAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-21T17:23:30.789Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "_DbContext.cs",
               "DocumentMoniker": "C:\\sharpProjects\\emcnsl\\ConsTestEffectiveMobile\\ConsTestEffectiveMobile\\_DbContext.cs",
               "RelativeDocumentMoniker": "ConsTestEffectiveMobile\\_DbContext.cs",
@@ -75,8 +75,7 @@
               "RelativeToolTip": "ConsTestEffectiveMobile\\_DbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-21T14:14:50.77Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-21T14:14:50.77Z"
             },
             {
               "$type": "Document",
@@ -88,8 +87,7 @@
               "RelativeToolTip": "ConsTestEffectiveMobile\\Models\\CityDistrict.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-21T14:09:00.534Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-21T14:09:00.534Z"
             },
             {
               "$type": "Document",
@@ -101,21 +99,19 @@
               "RelativeToolTip": "ConsTestEffectiveMobile\\Models\\Order.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-21T14:07:17.433Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-21T14:07:17.433Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "ConsTestEffectiveMobile",
+              "Title": "ConsTestEffectiveMobile.csproj",
               "DocumentMoniker": "C:\\sharpProjects\\emcnsl\\ConsTestEffectiveMobile\\ConsTestEffectiveMobile\\ConsTestEffectiveMobile.csproj",
               "RelativeDocumentMoniker": "ConsTestEffectiveMobile\\ConsTestEffectiveMobile.csproj",
               "ToolTip": "C:\\sharpProjects\\emcnsl\\ConsTestEffectiveMobile\\ConsTestEffectiveMobile\\ConsTestEffectiveMobile.csproj",
               "RelativeToolTip": "ConsTestEffectiveMobile\\ConsTestEffectiveMobile.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-10-21T14:01:16.824Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-21T14:01:16.824Z"
             },
             {
               "$type": "Document",
@@ -125,7 +121,7 @@
               "RelativeDocumentMoniker": "ConsTestEffectiveMobile\\Program.cs",
               "ToolTip": "C:\\sharpProjects\\emcnsl\\ConsTestEffectiveMobile\\ConsTestEffectiveMobile\\Program.cs",
               "RelativeToolTip": "ConsTestEffectiveMobile\\Program.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAUwDEAAAClAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-21T13:59:29.879Z",
               "EditorCaption": ""
