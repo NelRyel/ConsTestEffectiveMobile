@@ -2,12 +2,27 @@
 using ConsTestEffectiveMobile;
 using ConsTestEffectiveMobile.Models;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Logging;
+using Serilog;
+using Serilog.Formatting.Compact;
 using static Microsoft.EntityFrameworkCore.DbLoggerCategory.Database;
+using InterpolatedLoggingDemo;
+
 
 //https://drive.google.com/file/d/1hwrCwvhyNJUtDHreyqeSM_P3yQQ_XcYC/view
 Console.WriteLine("Hello, World!");
 
+Log.Logger = new LoggerConfiguration()
+    .MinimumLevel.Information()
+    .WriteTo.Console(new CompactJsonFormatter())
+    .CreateLogger();
 
+// Регистрируем Serilog при создании Microsoft.Extensions.Logging.LoggerFactory
+using var loggerFactory = LoggerFactory.Create(
+    builder => builder.AddSerilog(dispose: true));
+// Создаем экземпляр ILogger при помощи фабрики
+var logger = loggerFactory.CreateLogger<Program>();
 
 // это для первого заполнения БД 
 //DefaultInit defaultInit = new DefaultInit();
