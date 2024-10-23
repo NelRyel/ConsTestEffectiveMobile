@@ -6,23 +6,26 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Serilog;
 using Serilog.Formatting.Compact;
+using System.Collections.Generic;
 using static Microsoft.EntityFrameworkCore.DbLoggerCategory.Database;
-using InterpolatedLoggingDemo;
+//using InterpolatedLoggingDemo;
 
 
 //https://drive.google.com/file/d/1hwrCwvhyNJUtDHreyqeSM_P3yQQ_XcYC/view
 Console.WriteLine("Hello, World!");
+//MyLog.AddLogging();
 
 Log.Logger = new LoggerConfiguration()
-    .MinimumLevel.Information()
-    .WriteTo.Console(new CompactJsonFormatter())
-    .CreateLogger();
+   .MinimumLevel.Information()
+   .WriteTo.File("_deliveryLog.txt")
+   .CreateLogger();
 
 // Регистрируем Serilog при создании Microsoft.Extensions.Logging.LoggerFactory
 using var loggerFactory = LoggerFactory.Create(
     builder => builder.AddSerilog(dispose: true));
 // Создаем экземпляр ILogger при помощи фабрики
 var logger = loggerFactory.CreateLogger<Program>();
+
 
 // это для первого заполнения БД 
 //DefaultInit defaultInit = new DefaultInit();
@@ -39,6 +42,7 @@ while (w == true)
 {
     using (_DbContext db = new _DbContext())
     {
+       
         //выводим районы
         var dist = db.CityDistricts.ToList();
         cityCount = db.CityDistricts.Count();
@@ -46,11 +50,13 @@ while (w == true)
         {
             Console.WriteLine("ID: " + item.Id + " " + "Name: " + item.Name);
         }
+        logger.LogInformation("get cityDist from db: " + dist.ToString());
     }
     bool x = true;
     int id;
     do
     {
+        
         //собираем данные для фильтрации
         Console.WriteLine("enter id ");
         string s = Console.ReadLine();
@@ -72,6 +78,7 @@ while (w == true)
         {
             Console.WriteLine("не то");
         }
+        logger.LogInformation("enter datas. Id: " + s+" | FromHour "+fh+ " | ToHour "+th+" | ");
     }
     while (x == true);
 
@@ -83,7 +90,11 @@ while (w == true)
     {
         w = true;
     }
-    else { w = false; }
+    else {
+        logger.LogInformation("____END_____");
+
+        w = false; 
+    }
 }
 
 
@@ -99,7 +110,8 @@ void GetOrdersByDistrict(int id)
                 foreach (Order order in dstrckt.Orders.OrderByDescending(s => s.DateTimeOredDelivery).Where(a=>a.DateTimeOredDelivery.Hour>FromHour&&a.DateTimeOredDelivery.Hour<ToHour&&a.DateTimeOredDelivery.Year==2024&&a.DateTimeOredDelivery.Month==10))
                 {
                 Console.WriteLine("ID: " + order.Id + " " + "Вес заказа: " + order.Weight + " " + "Дата заказа: " + $"{order.DateTimeOredDelivery:u}");
-                }
+                logger.LogInformation("getting info: ID: " + order.Id + " " + "Вес заказа: " + order.Weight + " " + "Дата заказа: " + $"{order.DateTimeOredDelivery:u}");
+            }
             }
         }
     }

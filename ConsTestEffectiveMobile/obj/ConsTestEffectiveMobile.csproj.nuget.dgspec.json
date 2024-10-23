@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\vs\\projects\\sometest\\ConsTestEffectiveMobile\\ConsTestEffectiveMobile\\ConsTestEffectiveMobile.csproj": {}
+    "C:\\sharpProjects\\emcnsl\\ConsTestEffectiveMobile\\ConsTestEffectiveMobile\\ConsTestEffectiveMobile.csproj": {}
   },
   "projects": {
-    "E:\\vs\\projects\\sometest\\ConsTestEffectiveMobile\\ConsTestEffectiveMobile\\ConsTestEffectiveMobile.csproj": {
+    "C:\\sharpProjects\\emcnsl\\ConsTestEffectiveMobile\\ConsTestEffectiveMobile\\ConsTestEffectiveMobile.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\vs\\projects\\sometest\\ConsTestEffectiveMobile\\ConsTestEffectiveMobile\\ConsTestEffectiveMobile.csproj",
+        "projectUniqueName": "C:\\sharpProjects\\emcnsl\\ConsTestEffectiveMobile\\ConsTestEffectiveMobile\\ConsTestEffectiveMobile.csproj",
         "projectName": "ConsTestEffectiveMobile",
-        "projectPath": "E:\\vs\\projects\\sometest\\ConsTestEffectiveMobile\\ConsTestEffectiveMobile\\ConsTestEffectiveMobile.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "E:\\vs\\projects\\sometest\\ConsTestEffectiveMobile\\ConsTestEffectiveMobile\\obj\\",
+        "projectPath": "C:\\sharpProjects\\emcnsl\\ConsTestEffectiveMobile\\ConsTestEffectiveMobile\\ConsTestEffectiveMobile.csproj",
+        "packagesPath": "C:\\Users\\vivit\\.nuget\\packages\\",
+        "outputPath": "C:\\sharpProjects\\emcnsl\\ConsTestEffectiveMobile\\ConsTestEffectiveMobile\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "E:\\vs\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\vivit\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -58,9 +54,21 @@
               "target": "Package",
               "version": "[4.1.0, )"
             },
+            "Serilog.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
             "Serilog.Formatting.Compact": {
               "target": "Package",
               "version": "[3.0.0, )"
+            },
+            "Serilog.Sinks.Console": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Serilog.Sinks.File": {
+              "target": "Package",
+              "version": "[6.0.0, )"
             }
           },
           "imports": [
@@ -79,7 +87,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

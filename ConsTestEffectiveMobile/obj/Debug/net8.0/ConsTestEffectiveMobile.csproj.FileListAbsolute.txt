@@ -108,3 +108,12 @@ E:\vs\projects\sometest\ConsTestEffectiveMobile\ConsTestEffectiveMobile\obj\Debu
 E:\vs\projects\sometest\ConsTestEffectiveMobile\ConsTestEffectiveMobile\obj\Debug\net8.0\ConsTestEffectiveMobile.genruntimeconfig.cache
 E:\vs\projects\sometest\ConsTestEffectiveMobile\ConsTestEffectiveMobile\obj\Debug\net8.0\ref\ConsTestEffectiveMobile.dll
 C:\sharpProjects\emcnsl\ConsTestEffectiveMobile\ConsTestEffectiveMobile\obj\Debug\net8.0\ConsTestEffectiveMobile.sourcelink.json
+C:\sharpProjects\emcnsl\ConsTestEffectiveMobile\ConsTestEffectiveMobile\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+C:\sharpProjects\emcnsl\ConsTestEffectiveMobile\ConsTestEffectiveMobile\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\sharpProjects\emcnsl\ConsTestEffectiveMobile\ConsTestEffectiveMobile\bin\Debug\net8.0\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\sharpProjects\emcnsl\ConsTestEffectiveMobile\ConsTestEffectiveMobile\bin\Debug\net8.0\Serilog.dll
+C:\sharpProjects\emcnsl\ConsTestEffectiveMobile\ConsTestEffectiveMobile\bin\Debug\net8.0\Serilog.Extensions.Hosting.dll
+C:\sharpProjects\emcnsl\ConsTestEffectiveMobile\ConsTestEffectiveMobile\bin\Debug\net8.0\Serilog.Extensions.Logging.dll
+C:\sharpProjects\emcnsl\ConsTestEffectiveMobile\ConsTestEffectiveMobile\bin\Debug\net8.0\Serilog.Formatting.Compact.dll
+C:\sharpProjects\emcnsl\ConsTestEffectiveMobile\ConsTestEffectiveMobile\bin\Debug\net8.0\Serilog.Sinks.Console.dll
+C:\sharpProjects\emcnsl\ConsTestEffectiveMobile\ConsTestEffectiveMobile\bin\Debug\net8.0\Serilog.Sinks.File.dll
