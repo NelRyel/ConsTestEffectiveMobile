@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{09758C21-7314-413C-A467-C7CBE84EA05B}|ConsTestEffectiveMobile\\ConsTestEffectiveMobile.csproj|solutionrelative:constesteffectivemobile\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{09758C21-7314-413C-A467-C7CBE84EA05B}|ConsTestEffectiveMobile\\ConsTestEffectiveMobile.csproj|c:\\sharpprojects\\emcnsl\\constesteffectivemobile\\constesteffectivemobile\\defaultinit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09758C21-7314-413C-A467-C7CBE84EA05B}|ConsTestEffectiveMobile\\ConsTestEffectiveMobile.csproj|solutionrelative:constesteffectivemobile\\defaultinit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{09758C21-7314-413C-A467-C7CBE84EA05B}|ConsTestEffectiveMobile\\ConsTestEffectiveMobile.csproj|c:\\sharpprojects\\emcnsl\\constesteffectivemobile\\constesteffectivemobile\\mylog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{09758C21-7314-413C-A467-C7CBE84EA05B}|ConsTestEffectiveMobile\\ConsTestEffectiveMobile.csproj|solutionrelative:constesteffectivemobile\\mylog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -18,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -39,6 +43,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "DefaultInit.cs",
+              "DocumentMoniker": "C:\\sharpProjects\\emcnsl\\ConsTestEffectiveMobile\\ConsTestEffectiveMobile\\DefaultInit.cs",
+              "RelativeDocumentMoniker": "ConsTestEffectiveMobile\\DefaultInit.cs",
+              "ToolTip": "C:\\sharpProjects\\emcnsl\\ConsTestEffectiveMobile\\ConsTestEffectiveMobile\\DefaultInit.cs",
+              "RelativeToolTip": "ConsTestEffectiveMobile\\DefaultInit.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAwwD4AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T18:19:48.139Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "MyLog.cs",
               "DocumentMoniker": "C:\\sharpProjects\\emcnsl\\ConsTestEffectiveMobile\\ConsTestEffectiveMobile\\MyLog.cs",
               "RelativeDocumentMoniker": "ConsTestEffectiveMobile\\MyLog.cs",
@@ -46,8 +63,7 @@
               "RelativeToolTip": "ConsTestEffectiveMobile\\MyLog.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T17:23:58.81Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-23T17:23:58.81Z"
             },
             {
               "$type": "Document",
@@ -57,7 +73,7 @@
               "RelativeDocumentMoniker": "ConsTestEffectiveMobile\\Program.cs",
               "ToolTip": "C:\\sharpProjects\\emcnsl\\ConsTestEffectiveMobile\\ConsTestEffectiveMobile\\Program.cs",
               "RelativeToolTip": "ConsTestEffectiveMobile\\Program.cs",
-              "ViewState": "AgIAAF0AAAAAAAAAAAAAAD0AAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAF8AAAAAAAAAAAAlwGoAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-23T12:27:06.144Z",
               "EditorCaption": ""

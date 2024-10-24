@@ -57,7 +57,7 @@ namespace ConsTestEffectiveMobile
             {
                 int CountCity = db.CityDistricts.Count();
 
-                for (int i = 0; i < 100; i++)
+                for (int i = 0; i < 20; i++)
                 {
                     
                     int IDD = rand.Next(1, CountCity);
@@ -69,12 +69,13 @@ namespace ConsTestEffectiveMobile
                     //int day = MyRandDay(month);
                     int month = 10;
                     int day = 22;
-                    int hour = rand.Next(0, 24);
+                    //int hour = rand.Next(0, 24);
+                    int hour = 10;
                     int minute = rand.Next(0, 59);
                     int second = rand.Next(0, 59);
                     DateTime dateTime = new DateTime(2024, month, day,hour, minute, second);
                     order.DateTimeOredDelivery = dateTime;
-                    CityDistrict district = db.CityDistricts.Find(IDD);
+                    CityDistrict district = db.CityDistricts.Find(2);
                     order.CityDistrict = district;
                     db.Orders.Add(order);
                 }

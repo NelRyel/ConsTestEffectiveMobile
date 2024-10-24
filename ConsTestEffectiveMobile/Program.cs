@@ -28,8 +28,8 @@ var logger = loggerFactory.CreateLogger<Program>();
 
 
 // это для первого заполнения БД 
-//DefaultInit defaultInit = new DefaultInit();
-//defaultInit.StartInitCityDist(); 
+DefaultInit defaultInit = new DefaultInit();
+//defaultInit.StartInitCityDist();
 //defaultInit.StartOrderInit();
 // это для первого заполнения БД 
 
@@ -56,18 +56,17 @@ while (w == true)
     int id;
     do
     {
+            //собираем данные для фильтрации
+            Console.WriteLine("enter id ");
+            string s = Console.ReadLine();
+            Console.WriteLine("enter from hour ");
+            string fh = Console.ReadLine();
+            Console.WriteLine("enter to hour ");
+            string th = Console.ReadLine();
+            bool isNumFh = int.TryParse(fh, out FromHour);
+            bool isNumTh = int.TryParse(th, out ToHour);
+            bool isNumeric = int.TryParse(s, out id);
         
-        //собираем данные для фильтрации
-        Console.WriteLine("enter id ");
-        string s = Console.ReadLine();
-        Console.WriteLine("enter from hour ");
-        string fh = Console.ReadLine();
-        Console.WriteLine("enter to hour ");
-        string th = Console.ReadLine();
-        bool isNumFh = int.TryParse(fh, out FromHour);
-        bool isNumTh = int.TryParse(th, out ToHour);
-
-        bool isNumeric = int.TryParse(s, out id);
         //огрооооомный иф, хм, наверное можно было запихнуть это в отдельный метод бул который это всё собирает и проверяет...ну да ладно
         if (isNumeric == true && id <= cityCount && isNumFh == true && isNumTh == true&& FromHour <= ToHour&&FromHour>=0&&FromHour<= 24&&ToHour >= 0 && ToHour <= 24)
         {
@@ -102,17 +101,26 @@ void GetOrdersByDistrict(int id)
     {
         using (_DbContext db = new _DbContext())
         {
-            var some = db.CityDistricts.Include(o => o.Orders).Where(a => a.Id == id).ToList();
+        logger.LogInformation("started GetOrdersByDistrict");
+        var some = db.CityDistricts.Include(o => o.Orders).Where(a => a.Id == id).ToList();
             foreach (CityDistrict dstrckt in some)
             {
                 Console.WriteLine($"\n район: {dstrckt.Name}");
-                //ну тут я в итоге захардкодил определенный день, чтоб не заполнять лишний раз базу и не плодить ридЛайны. дата 2024-10-22
-                foreach (Order order in dstrckt.Orders.OrderByDescending(s => s.DateTimeOredDelivery).Where(a=>a.DateTimeOredDelivery.Hour>FromHour&&a.DateTimeOredDelivery.Hour<ToHour&&a.DateTimeOredDelivery.Year==2024&&a.DateTimeOredDelivery.Month==10))
+
+            var sss = dstrckt.Orders.OrderByDescending(s => s.DateTimeOredDelivery).Where(a => a.DateTimeOredDelivery.Hour > FromHour && a.DateTimeOredDelivery.Hour < ToHour && a.DateTimeOredDelivery.Year == 2024 && a.DateTimeOredDelivery.Month == 10).LastOrDefault();
+            
+            //Console.WriteLine("@@@@@@@@@@@@@@@@@ " + sss.Id + "@@@@@@@@@@@@@@");
+            //ну тут я в итоге захардкодил определенный день, чтоб не заполнять лишний раз базу и не плодить ридЛайны. дата 2024-10-22
+//            foreach (Order order in dstrckt.Orders.OrderByDescending(s => s.DateTimeOredDelivery).Where(a=>a.DateTimeOredDelivery.Hour>FromHour&&a.DateTimeOredDelivery.Hour<ToHour&&a.DateTimeOredDelivery.Year==2024&&a.DateTimeOredDelivery.Month==10))
+            foreach (Order order in dstrckt.Orders.OrderByDescending(s => s.DateTimeOredDelivery).Where(a=>a.DateTimeOredDelivery.Hour>=sss.DateTimeOredDelivery.Hour&& a.DateTimeOredDelivery.Hour <= sss.DateTimeOredDelivery.Hour && a.DateTimeOredDelivery.Minute>=sss.DateTimeOredDelivery.Minute+30&&a.DateTimeOredDelivery.Year==2024&&a.DateTimeOredDelivery.Month==10))
+
                 {
-                Console.WriteLine("ID: " + order.Id + " " + "Вес заказа: " + order.Weight + " " + "Дата заказа: " + $"{order.DateTimeOredDelivery:u}");
+
+                    Console.WriteLine("ID: " + order.Id + " " + "Вес заказа: " + order.Weight + " " + "Дата заказа: " + $"{order.DateTimeOredDelivery:u}");
                 logger.LogInformation("getting info: ID: " + order.Id + " " + "Вес заказа: " + order.Weight + " " + "Дата заказа: " + $"{order.DateTimeOredDelivery:u}");
-            }
-            }
+                }
+           
+        }
         }
     }
 

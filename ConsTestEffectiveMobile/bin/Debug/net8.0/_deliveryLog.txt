@@ -1,0 +1,62 @@
+2024-10-24 21:01:21.592 +03:00 [INF] get cityDist from db: System.Collections.Generic.List`1[ConsTestEffectiveMobile.Models.CityDistrict]
+2024-10-24 21:01:29.121 +03:00 [INF] enter datas. Id: 2 | FromHour 10 | ToHour 20 | 
+2024-10-24 21:01:29.147 +03:00 [INF] started GetOrdersByDistrict
+2024-10-24 21:01:29.294 +03:00 [INF] getting info: ID: 177 Вес заказа: 36,942012786865234 Дата заказа: 2024-10-22 18:26:21Z
+2024-10-24 21:01:29.295 +03:00 [INF] getting info: ID: 140 Вес заказа: 24,825580596923828 Дата заказа: 2024-10-22 17:28:50Z
+2024-10-24 21:01:29.295 +03:00 [INF] getting info: ID: 108 Вес заказа: 18,135143280029297 Дата заказа: 2024-10-22 16:26:26Z
+2024-10-24 21:01:29.296 +03:00 [INF] getting info: ID: 105 Вес заказа: 39,33469009399414 Дата заказа: 2024-10-22 16:20:24Z
+2024-10-24 21:01:29.296 +03:00 [INF] getting info: ID: 193 Вес заказа: 0,39081084728240967 Дата заказа: 2024-10-22 13:11:44Z
+2024-10-24 21:01:29.297 +03:00 [INF] getting info: ID: 199 Вес заказа: 31,133056640625 Дата заказа: 2024-10-22 12:24:07Z
+2024-10-24 21:01:29.297 +03:00 [INF] getting info: ID: 187 Вес заказа: 8,13866901397705 Дата заказа: 2024-10-22 11:40:27Z
+2024-10-24 21:02:16.330 +03:00 [INF] get cityDist from db: System.Collections.Generic.List`1[ConsTestEffectiveMobile.Models.CityDistrict]
+2024-10-24 21:02:37.786 +03:00 [INF] enter datas. Id: 2 | FromHour 10 | ToHour 20 | 
+2024-10-24 21:02:37.844 +03:00 [INF] started GetOrdersByDistrict
+2024-10-24 21:02:37.991 +03:00 [INF] getting info: ID: 177 Вес заказа: 36,942012786865234 Дата заказа: 2024-10-22 18:26:21Z
+2024-10-24 21:02:37.991 +03:00 [INF] getting info: ID: 140 Вес заказа: 24,825580596923828 Дата заказа: 2024-10-22 17:28:50Z
+2024-10-24 21:02:37.992 +03:00 [INF] getting info: ID: 108 Вес заказа: 18,135143280029297 Дата заказа: 2024-10-22 16:26:26Z
+2024-10-24 21:02:37.992 +03:00 [INF] getting info: ID: 105 Вес заказа: 39,33469009399414 Дата заказа: 2024-10-22 16:20:24Z
+2024-10-24 21:02:37.992 +03:00 [INF] getting info: ID: 193 Вес заказа: 0,39081084728240967 Дата заказа: 2024-10-22 13:11:44Z
+2024-10-24 21:02:37.992 +03:00 [INF] getting info: ID: 199 Вес заказа: 31,133056640625 Дата заказа: 2024-10-22 12:24:07Z
+2024-10-24 21:02:37.992 +03:00 [INF] getting info: ID: 187 Вес заказа: 8,13866901397705 Дата заказа: 2024-10-22 11:40:27Z
+2024-10-24 21:03:13.300 +03:00 [INF] get cityDist from db: System.Collections.Generic.List`1[ConsTestEffectiveMobile.Models.CityDistrict]
+2024-10-24 21:03:15.826 +03:00 [INF] enter datas. Id: 2 | FromHour 10 | ToHour 20 | 
+2024-10-24 21:03:15.853 +03:00 [INF] started GetOrdersByDistrict
+2024-10-24 21:03:16.036 +03:00 [INF] getting info: ID: 177 Вес заказа: 36,942012786865234 Дата заказа: 2024-10-22 18:26:21Z
+2024-10-24 21:03:16.036 +03:00 [INF] getting info: ID: 140 Вес заказа: 24,825580596923828 Дата заказа: 2024-10-22 17:28:50Z
+2024-10-24 21:03:16.037 +03:00 [INF] getting info: ID: 108 Вес заказа: 18,135143280029297 Дата заказа: 2024-10-22 16:26:26Z
+2024-10-24 21:03:16.037 +03:00 [INF] getting info: ID: 105 Вес заказа: 39,33469009399414 Дата заказа: 2024-10-22 16:20:24Z
+2024-10-24 21:03:16.037 +03:00 [INF] getting info: ID: 193 Вес заказа: 0,39081084728240967 Дата заказа: 2024-10-22 13:11:44Z
+2024-10-24 21:03:16.037 +03:00 [INF] getting info: ID: 199 Вес заказа: 31,133056640625 Дата заказа: 2024-10-22 12:24:07Z
+2024-10-24 21:03:16.037 +03:00 [INF] getting info: ID: 187 Вес заказа: 8,13866901397705 Дата заказа: 2024-10-22 11:40:27Z
+2024-10-24 21:18:13.742 +03:00 [INF] get cityDist from db: System.Collections.Generic.List`1[ConsTestEffectiveMobile.Models.CityDistrict]
+2024-10-24 21:18:25.513 +03:00 [INF] enter datas. Id: 2 | FromHour 10 | ToHour 20 | 
+2024-10-24 21:18:25.538 +03:00 [INF] started GetOrdersByDistrict
+2024-10-24 21:19:27.567 +03:00 [INF] get cityDist from db: System.Collections.Generic.List`1[ConsTestEffectiveMobile.Models.CityDistrict]
+2024-10-24 21:19:31.187 +03:00 [INF] enter datas. Id: 2 | FromHour 0 | ToHour 20 | 
+2024-10-24 21:19:31.210 +03:00 [INF] started GetOrdersByDistrict
+2024-10-24 21:21:04.279 +03:00 [INF] get cityDist from db: System.Collections.Generic.List`1[ConsTestEffectiveMobile.Models.CityDistrict]
+2024-10-24 21:21:11.930 +03:00 [INF] enter datas. Id: 2 | FromHour 10 | ToHour 20 | 
+2024-10-24 21:21:11.993 +03:00 [INF] started GetOrdersByDistrict
+2024-10-24 21:22:37.317 +03:00 [INF] get cityDist from db: System.Collections.Generic.List`1[ConsTestEffectiveMobile.Models.CityDistrict]
+2024-10-24 21:22:42.298 +03:00 [INF] enter datas. Id: 2 | FromHour 10 | ToHour 20 | 
+2024-10-24 21:22:42.366 +03:00 [INF] started GetOrdersByDistrict
+2024-10-24 21:22:44.570 +03:00 [INF] ____END_____
+2024-10-24 21:24:11.275 +03:00 [INF] get cityDist from db: System.Collections.Generic.List`1[ConsTestEffectiveMobile.Models.CityDistrict]
+2024-10-24 21:24:15.907 +03:00 [INF] enter datas. Id: 2 | FromHour 10 | ToHour 20 | 
+2024-10-24 21:24:19.783 +03:00 [INF] started GetOrdersByDistrict
+2024-10-24 21:26:11.150 +03:00 [INF] get cityDist from db: System.Collections.Generic.List`1[ConsTestEffectiveMobile.Models.CityDistrict]
+2024-10-24 21:26:19.763 +03:00 [INF] enter datas. Id: 2 | FromHour 0 | ToHour 23 | 
+2024-10-24 21:26:19.789 +03:00 [INF] started GetOrdersByDistrict
+2024-10-24 21:26:40.261 +03:00 [INF] get cityDist from db: System.Collections.Generic.List`1[ConsTestEffectiveMobile.Models.CityDistrict]
+2024-10-24 21:26:42.818 +03:00 [INF] enter datas. Id: 2 | FromHour 0 | ToHour 23 | 
+2024-10-24 21:26:44.615 +03:00 [INF] started GetOrdersByDistrict
+2024-10-24 21:28:05.729 +03:00 [INF] get cityDist from db: System.Collections.Generic.List`1[ConsTestEffectiveMobile.Models.CityDistrict]
+2024-10-24 21:28:12.971 +03:00 [INF] enter datas. Id: 2 | FromHour 10 | ToHour 23 | 
+2024-10-24 21:28:15.233 +03:00 [INF] started GetOrdersByDistrict
+2024-10-24 21:29:48.170 +03:00 [INF] get cityDist from db: System.Collections.Generic.List`1[ConsTestEffectiveMobile.Models.CityDistrict]
+2024-10-24 21:29:50.908 +03:00 [INF] enter datas. Id: 2 | FromHour 0 | ToHour 23 | 
+2024-10-24 21:29:52.272 +03:00 [INF] started GetOrdersByDistrict
+2024-10-24 21:32:00.542 +03:00 [INF] get cityDist from db: System.Collections.Generic.List`1[ConsTestEffectiveMobile.Models.CityDistrict]
+2024-10-24 21:32:04.226 +03:00 [INF] enter datas. Id: 2 | FromHour 10 | ToHour 23 | 
+2024-10-24 21:32:04.259 +03:00 [INF] started GetOrdersByDistrict
+2024-10-24 21:32:06.411 +03:00 [INF] ____END_____
