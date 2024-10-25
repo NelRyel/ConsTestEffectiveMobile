@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ConsTestEffectiveMobile")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1d4f80124e53e54fecf20491ddd323211b70e718")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+29e647baa10291b096b14f9395ededa0b9d2825b")]
 [assembly: System.Reflection.AssemblyProductAttribute("ConsTestEffectiveMobile")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ConsTestEffectiveMobile")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

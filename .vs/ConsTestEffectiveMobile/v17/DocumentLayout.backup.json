@@ -13,6 +13,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{09758C21-7314-413C-A467-C7CBE84EA05B}|ConsTestEffectiveMobile\\ConsTestEffectiveMobile.csproj|c:\\sharpprojects\\emcnsl\\constesteffectivemobile\\constesteffectivemobile\\mylog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{09758C21-7314-413C-A467-C7CBE84EA05B}|ConsTestEffectiveMobile\\ConsTestEffectiveMobile.csproj|solutionrelative:constesteffectivemobile\\mylog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09758C21-7314-413C-A467-C7CBE84EA05B}|ConsTestEffectiveMobile\\ConsTestEffectiveMobile.csproj|c:\\sharpprojects\\emcnsl\\constesteffectivemobile\\constesteffectivemobile\\mygeters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09758C21-7314-413C-A467-C7CBE84EA05B}|ConsTestEffectiveMobile\\ConsTestEffectiveMobile.csproj|solutionrelative:constesteffectivemobile\\mygeters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,13 +46,26 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MyGeters.cs",
+              "DocumentMoniker": "C:\\sharpProjects\\emcnsl\\ConsTestEffectiveMobile\\ConsTestEffectiveMobile\\MyGeters.cs",
+              "RelativeDocumentMoniker": "ConsTestEffectiveMobile\\MyGeters.cs",
+              "ToolTip": "C:\\sharpProjects\\emcnsl\\ConsTestEffectiveMobile\\ConsTestEffectiveMobile\\MyGeters.cs",
+              "RelativeToolTip": "ConsTestEffectiveMobile\\MyGeters.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE0AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T17:28:01.719Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
               "Title": "DefaultInit.cs",
               "DocumentMoniker": "C:\\sharpProjects\\emcnsl\\ConsTestEffectiveMobile\\ConsTestEffectiveMobile\\DefaultInit.cs",
               "RelativeDocumentMoniker": "ConsTestEffectiveMobile\\DefaultInit.cs",
               "ToolTip": "C:\\sharpProjects\\emcnsl\\ConsTestEffectiveMobile\\ConsTestEffectiveMobile\\DefaultInit.cs",
               "RelativeToolTip": "ConsTestEffectiveMobile\\DefaultInit.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAwwD4AAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAwwD4AAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-24T18:19:48.139Z",
               "EditorCaption": ""
@@ -61,9 +78,10 @@
               "RelativeDocumentMoniker": "ConsTestEffectiveMobile\\MyLog.cs",
               "ToolTip": "C:\\sharpProjects\\emcnsl\\ConsTestEffectiveMobile\\ConsTestEffectiveMobile\\MyLog.cs",
               "RelativeToolTip": "ConsTestEffectiveMobile\\MyLog.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T17:23:58.81Z"
+              "WhenOpened": "2024-10-23T17:23:58.81Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -73,7 +91,7 @@
               "RelativeDocumentMoniker": "ConsTestEffectiveMobile\\Program.cs",
               "ToolTip": "C:\\sharpProjects\\emcnsl\\ConsTestEffectiveMobile\\ConsTestEffectiveMobile\\Program.cs",
               "RelativeToolTip": "ConsTestEffectiveMobile\\Program.cs",
-              "ViewState": "AgIAAF8AAAAAAAAAAAAlwGoAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAmwHQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-23T12:27:06.144Z",
               "EditorCaption": ""
